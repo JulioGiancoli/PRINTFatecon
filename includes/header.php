@@ -22,7 +22,7 @@
         <div class="col menu">
             <div class="dropdown">
                 <button class="btn btn-secondary" id="botao-header" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                <img src="icons8-cardápio-50.png" alt="">
+                <img src="images/menuHamburguer.png" alt="">
                 </button>
                 <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="#">Quadrinhos em destaque</a></li>
