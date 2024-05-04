@@ -1,3 +1,4 @@
+@charset "utf-8";
 header{
     height:200px;
     background-color: #2E61B8 ;
@@ -31,6 +32,17 @@ header{
 header .row.fatecon{
     height: 200px;
 }
+.carrouselprincipal{
+    height: 300px;
+    border: 5px solid white;
+    
+}
+.visual:hover{
+    background-color: white;
+    border-radius: 50%;
+}
+
+
 @media screen and (max-width: 480px) {
     .logo img{
         width: 200px;
