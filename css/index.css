@@ -1,0 +1,80 @@
+.indexImg{
+
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    padding-top: 20px;
+}
+.indexImg img{
+    width: 80%;
+    height: 100%;
+}
+
+article{
+    display: flex;
+    justify-content: center;
+}
+
+.bemvindofatecon{
+    text-align: center;
+    font-family: 'Jomhuria', serif;
+    font-size: 6em;
+    padding: 15px;
+}
+.textoArticleGrande{
+    display: none;
+    width: 80%;
+    border: 1px solid black;
+    height: 300px;
+    padding: 30px;
+}
+
+
+
+.textoArticleGrande img{
+    display: none;
+}
+.textoArticle{
+    padding: 15px;
+}
+
+@media screen and (min-width: 990px) {
+    .textoArticle{
+        display: none;
+    }
+    .textoArticleGrande{
+        display: flex;
+    }
+    .textoArticleGrande img{
+        display: block;
+    }
+    aside{
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+.vejaTb{
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    padding: 15px;
+    border: 1px solid black;
+}
+.vejaTb img{
+    width: 100%;
+    height: 100%;
+}
+.vejaTb a {align-self: center;
+    padding: 10px;
+}
+
+@media screen and (max-width: 990px){
+    .indexImg img{
+        width: 100%;
+        height: 100%;
+    }
+    .vejaTb{
+        flex-direction: column;
+    }
+}

@@ -4,13 +4,13 @@
             <img  src="images/logoFatecon.png" alt="">
         </div>
         <div class="col-5"><ul>
-                    <li><a href="">Início</a></li>
-                    <li><a href="">Em destaque</a></li>
-                    <li><a href="">Artistas</a></li>
-                    <li><a href="">Galeria</a></li>
-                    <li><a href="">História</a></li>
-                    <li><a href="">Eventos</a></li>
-                    <li><a href="">Sobre</a></li>
+                    <li><a href="index.php">Início</a></li>
+                    <li><a href="destaque.php">Em destaque</a></li>
+                    <li><a href="hubArtistas.php">Artistas</a></li>
+                    <li><a href="hubGaleria.php">Galeria</a></li>
+                    <li><a href="historia.php">História</a></li>
+                    <li><a href="eventos.php">Eventos</a></li>
+                    <li><a href="about.php">Sobre</a></li>
                 </ul>
     </div>
     <div class="col social">
@@ -24,7 +24,7 @@
     </div>
 
 </footer>
-</div>
+
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </html>
