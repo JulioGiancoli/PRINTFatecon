@@ -1,15 +1,28 @@
 @charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Jomhuria&display=swap');
 header{
     height:200px;
     background-color: #2E61B8 ;
     width: 100%;
 }
-
+h1,h2,h3,h4,h5,h6{
+    font-family: 'jomhuria';
+}
+.welc{
+    font-size: 100px;
+    color: white;
+    font-weight: 400;
+    -webkit-text-stroke: 3px black; /*Border da fonte*/
+}
 .container{
     width: 100%;
 }
-
-
+.sectionhomepage{
+    background-color: #F7B323;
+}
+.imagemsection{
+    border: 2px solid white;
+}
 #botao-header{
     background-color: #2E61B8;
     border: none;
@@ -30,12 +43,13 @@ header{
 }
 
 header .row.fatecon{
-    height: 200px;
+    height: 250px;
 }
+
 .carrouselprincipal{
     height: 300px;
     border: 5px solid white;
-    
+    box-shadow: 10px black; 
 }
 .visual:hover{
     background-color: white;
