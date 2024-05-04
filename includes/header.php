@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,6 +16,9 @@
     
     <header>
     <div class="row fatecon">
+=======
+<div class="row fatecon">
+
         <div class="col logo">
             <img  src="images/logoFatecon.png" alt="">
         </div>
@@ -46,4 +50,3 @@
             <a href="contato.php">Contato</a>
             <a href="about.php">Sobre nós</a>
         </nav>
-    </header>
